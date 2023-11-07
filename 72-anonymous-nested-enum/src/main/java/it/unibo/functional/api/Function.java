@@ -29,9 +29,9 @@ public interface Function<I, O> {
         }
        };
     }
-    public static final Function<Integer, Integer> IDENTITY = new Function<Integer, Integer>(){
+    /*public static final Function<Integer, Integer> IDENTITY = new Function<Integer, Integer>(){
         public Integer call(Integer input){
             return input;
         }
-    }
+    }*/
 }
